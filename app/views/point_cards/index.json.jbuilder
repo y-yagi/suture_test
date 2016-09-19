@@ -1,0 +1,1 @@
+json.array! @point_cards, partial: 'point_cards/point_card', as: :point_card

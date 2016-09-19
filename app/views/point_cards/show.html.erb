@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Point:</strong>
+  <%= @point_card.point %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @point_card.user %>
+</p>
+
+<%= link_to 'Edit', edit_point_card_path(@point_card) %> |
+<%= link_to 'Back', point_cards_path %>
